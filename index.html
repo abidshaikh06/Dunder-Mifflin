@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dunder Mifflin</title>
+  <!-- favicon -->
+  <link rel="icon" href="images/dm.ico">
+  <!-- googlefonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+  <!-- css file -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- fontawesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="color-section" id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">Dunder Mifflin</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Follows us</a>
+            </li>
+          </ul>
+      </nav>
+
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+
+          <h1 class="big-heading">We sell papers. Download the app.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-titles">Easy to use.</h3>
+          <p>So easy to use, even your baby could do it.</p>
+        </div>
+
+        <div class=" feature-box col-lg-4">
+          <i class="icon fas fa-chart-line fa-4x"></i>
+          <h3 class="feature-titles">Meet expectations</h3>
+          <p>We will your expectations.</p>
+
+        </div>
+        <div class=" feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-titles">REPORTS & ANALYTICS</h3>
+          <p>Detailed report provided with proper analysis and statistical representation of the data..</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="color-section" id="testimonials">
+    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img class="testimonial-image" src="images/ms.png" alt="Micheal scott">
+          <h5 testimonial-text>Micheal scott</h5>
+          <em>The rigonal manager</em>
+          <p class="testimonial-sub">“You miss 100% of the shots you don’t take</p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="images/ds.png" alt="dwight schrute">
+          <h5 testimonial-text>dwight schrute</h5>
+          <em>Assistant to the rigonal manager</em>
+          <p class="testimonial-sub">"Whenever I'm about to do something, I think 'Would an idiot do that?' And if they would, I do not do that thing."</p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img class="testimonial-image" src="images/tf.png" alt="toby flenderson">
+          <h5 testimonial-text>toby flenderson</h5>
+          <em>Human resources</em>
+          <p class="testimonial-sub">“We should really have the office's air quality tested"</p>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+    </div>
+  </section>
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2005 Dunder Mifflin</p>
+      <p class="back-top"><a href="#">Back to top</a></p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
